@@ -1,6 +1,3 @@
-let
-  # Import sources
-  sources = import ./nix/sources.nix;
-
-# And return that specific nixpkgs
-in sources.nixpkgs
+{ sources ? import ./sources.nix }:     # import the sources
+import sources.nixpkgs                  # and use them again!
+  { overlays = [] ; config = {}; }
