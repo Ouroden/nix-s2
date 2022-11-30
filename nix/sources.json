@@ -1,4 +1,10 @@
 {
+    "nix-s2": {
+        "branch": "main",
+        "repo": "git@github.com:Ouroden/nix-s2.git",
+        "rev": "872b8d74b71e1613472eca94026de57cde685e30",
+        "type": "git"
+    },
     "nixpkgs": {
         "branch": "release-21.05",
         "description": "Nix Packages collection",
